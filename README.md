@@ -81,8 +81,6 @@ Ejecute el predicado de carga. IMPORTANTE:
 ```Prolog
 IMPORTANTE: Termine cada entrada con un punto (.) y presione Enter.
 
-% --- Cartas Clásicas ---
-
 agregarMostro.
 kuriboh.
 1.
@@ -118,9 +116,6 @@ cyberdragon.
 5.
 luz.
 2100.
-
-% --- Cartas para Combos (Handtraps y Puentes comunes) ---
-
 agregarMostro.
 ocultadordeefectos.
 1.

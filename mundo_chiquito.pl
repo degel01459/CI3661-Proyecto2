@@ -13,7 +13,7 @@ mostro(mostroTres, 7, viento, 2500).
 comparten_exactamente_una(N1, A1, P1, N2, A2, P2) :-
     (N1 =:= N2, A1 \= A2, P1 =\= P2);  % Coincide solo Nivel
     (N1 =\= N2, A1 = A2, P1 =\= P2);   % Coincide solo Atributo
-    (N1 =\= N2, A1 \= A2, P1 =:= P2).  % Coincide solo Ataque
+    (N1 =\= N2, A1 \= A2, P1 =:= P2).  % Coincide solo Poder
 
 % 3. TERNA MUNDO CHIQUITO
 % Evalúa verdadero para las ternas X (Mano), Y (Puente), Z (Mazo)
@@ -24,24 +24,22 @@ ternaMundoChiquito(X, Y, Z) :-
     
     % 2. Buscar carta Y (Puente) que exista en la base
     mostro(Y, N2, A2, P2),
-    X \= Y, % Una carta no puede ser puente de sí misma (compartiría 3 rasgos)
+    X \= Y, % Una carta no puede ser puente de sí misma.
     
     % 3. Verificar conexión Mano -> Puente
     comparten_exactamente_una(N1, A1, P1, N2, A2, P2),
     
     % 4. Buscar carta Z (Destino/Mazo)
     mostro(Z, N3, A3, P3),
-    Y \= Z, % El puente no puede ser igual al destino (compartiría 3 rasgos)
+    Y \= Z, % El puente no puede ser igual al destino.
     
     % 5. Verificar conexión Puente -> Destino
     comparten_exactamente_una(N2, A2, P2, N3, A3, P3).
-    % Nota: No agregamos X \= Z, porque es válido buscar una copia de la carta inicial.
 
 
 % 3. IMPRESIÓN DE RESULTADOS
-% Imprime todas las ternas posibles.
+% Imprime todas las ternas posibles separadas por espacios.
 mundoChiquito :-
-    % forall(Condicion, Accion): Para cada terna válida, imprime los nombres.
     forall(ternaMundoChiquito(X, Y, Z),
            format('~w ~w ~w~n', [X, Y, Z])).
 
