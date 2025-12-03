@@ -2,14 +2,16 @@
 
 - **Nombres:** Kevin Briceño
 - **Carnets:** 15-11661
-- **Correo:** 15-11661@usb.ve
+- **Correo:** `15-11661@usb.ve`
 
 ## Estructura del Proyecto
 
+```bash
 CI3661-Proyecto2
-├─ README.md                -- Este archivo (Documentación)
+├─ README.md                -- Este archivo
 ├─ mundo_chiquito_base.pl   -- Código fuente en Prolog y Base de Conocimiento
 └─ Proyecto_2.pdf           -- Enunciado del proyecto
+```
 
 ## Descripción
 
@@ -53,11 +55,12 @@ swipl mundo_chiquito_base.pl
 Una vez dentro del intérprete ?-, ejecute el predicado principal.
 
 ```Prolog
-
-Escribe:
 mundoChiquito.
+```
 
 Salida esperada:
+
+```Prolog
 mostroUno mostroDos mostroUno  
 mostroUno mostroDos mostroTres 
 mostroDos mostroUno mostroDos  
@@ -76,18 +79,15 @@ Ejecute el predicado de carga. IMPORTANTE:
 - Si el nombre tiene espacios, use comillas simples (ej: 'Kuriboh Alado').
 
 ```Prolog
-Escribe:
+IMPORTANTE: Termine cada entrada con un punto (.) y presione Enter.
+
+% --- Cartas Clásicas ---
+
 agregarMostro.
 kuriboh.
 1.
 luz.
 300.
-
-Interacción:
-IMPORTANTE: Termine cada entrada con un punto (.) y presione Enter.
-
-% --- Cartas Clásicas ---
-
 agregarMostro.
 magooscuro.
 7.
@@ -153,7 +153,6 @@ oscuridad.
 Vuelva a ejecutar el comando principal para ver si la nueva carta generó nuevas ternas.
 
 ```Prolog
-Escribe:
 mundoChiquito.
 ```
 
