@@ -74,70 +74,68 @@ true.
 
 Ejecute el predicado de carga. IMPORTANTE:
 
-- Al final de cada dato debe colocar un punto (.).
+- Cada entrada debe terminar con un punto (.) luego presione Enter.
 - Los atributos (luz, oscuridad, tierra, etc.) deben ir en minúsculas.
 - Si el nombre tiene espacios, use comillas simples (ej: 'Kuriboh Alado').
 
 ```Prolog
-IMPORTANTE: Cada entrada debe terminar con un punto (.) luego presione Enter.
-
 agregarMostro.
-kuriboh.
+'Kuriboh'.
 1.
 luz.
 300.
 agregarMostro.
-magooscuro.
+'Mago Oscuro'.
 7.
 oscuridad.
 2500.
 agregarMostro.
-dragonblancodeojosazules.
+'Dragon Blanco de Ojos Azules'.
 8.
 luz.
 3000.
 agregarMostro.
-dragonnegrodeojosrojos.
+'Dragon Negro de Ojos Rojos'.
 7.
 oscuridad.
 2400.
 agregarMostro.
-magodeltiempo.
+'Mago del Tiempo'.
 2.
 luz.
 500.
 agregarMostro.
-dragondepolvodeestrellas.
+'Dragon de Polvo de Estrellas'.
 8.
 viento.
 2500.
 agregarMostro.
-cyberdragon.
+'Cyber Dragon'.
 5.
 luz.
 2100.
 agregarMostro.
-ocultadordeefectos.
+'Ocultador de Efectos'.
 1.
 luz.
 0.
 agregarMostro.
-flordeceniza.
+'Flor de Ceniza'.
 3.
 fuego.
 0.
 agregarMostro.
-sangan.
+'Sangan'.
 3.
 oscuridad.
 1000.
 agregarMostro.
-brujadelbosquenegro.
+'Bruja del Bosque Negro'.
 4.
 oscuridad.
 1800.
 agregarMostro.
-exodiaelprohibido.
+'Exodia el Prohibido'.
 3.
 oscuridad.
 1000.
