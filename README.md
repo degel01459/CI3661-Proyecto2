@@ -79,7 +79,7 @@ Ejecute el predicado de carga. IMPORTANTE:
 - Si el nombre tiene espacios, use comillas simples (ej: 'Kuriboh Alado').
 
 ```Prolog
-IMPORTANTE: Termine cada entrada con un punto (.) y presione Enter.
+IMPORTANTE: Cada entrada debe terminar con un punto (.) luego presione Enter.
 
 agregarMostro.
 kuriboh.
