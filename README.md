@@ -9,7 +9,7 @@
 ```bash
 CI3661-Proyecto2
 ├─ README.md                -- Este archivo
-├─ mundo_chiquito_base.pl   -- Código fuente en Prolog y Base de Conocimiento
+├─ mundo_chiquito.pl        -- Código fuente en Prolog y Base de Conocimiento
 └─ Proyecto_2.pdf           -- Enunciado del proyecto
 ```
 
@@ -47,7 +47,7 @@ Permite la inserción dinámica de nuevos hechos en la base de datos en tiempo d
 Desde la terminal, navegue a la carpeta del proyecto y ejecute SWI-Prolog:
 
 ```bash
-swipl mundo_chiquito_base.pl
+swipl mundo_chiquito.pl
 ```
 
 ### Prueba 1 (Consultar ternas existentes)
